@@ -9,7 +9,7 @@
 
 body {
   /* background-color: #00000; */
-  background-color: #F5F5DC;
+  background-color: #696969;
   font-size: 16px;
   font-family: sans-serif;
 
@@ -17,24 +17,35 @@ body {
 
 .container{
   margin: 0 auto;
-  padding: 5%;
   width: 100%;
 }
 
-.restaurant-list{
+.arrow-left{
+  background-color: #000000;
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
+  padding: 3%;
+}
+
+.restaurant-list{
+  background-color: #D3D3D3;
+  margin: 0 auto;
+  padding: 0%;
+  width: 70%;
 }
 
 .location{
   display: flex;
   justify-content: space-between;
-  padding: 5% 0;
+  padding: 5% 5%;
+  border-bottom: 1px solid #696969;
 }
 
 
  h1 {
   font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 3%;
 }
 
 
