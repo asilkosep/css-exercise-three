@@ -1,4 +1,8 @@
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 .location:hover {
   background-color: grey;
 }
@@ -23,26 +27,16 @@ body {
 }
 
 .location{
-  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
 }
 
-.content {
-  float: left;
-}
-
-.arrow {
-  float: right;
-}
 
  h1 {
   font-weight: bold;
 }
 
-
-
-/* *, *:before, *:after {
-  box-sizing: border-box;
-} */
 
 /*
 nav {
